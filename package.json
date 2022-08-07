@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fmt": "npx prettier --write ."
+    "fmt": "npx prettier --write .",
+    "start": "http-server src"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "prettier": "2.7.1"
   }
 }

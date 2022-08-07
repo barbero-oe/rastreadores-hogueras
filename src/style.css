@@ -1,7 +1,30 @@
 body {
-    font-family: Roboto, sans;
-    font-weight: 400;
-    font-size: 1rem;
-    max-width: 90ch;
-    margin: auto;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  max-width: 90ch;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+th {
+  border: 1px solid black;
+  background: lightgray;
+  padding: 0.5rem;
+}
+
+table + table {
+  margin-top: 2rem;
 }
