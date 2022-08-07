@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
-  line-height: 1.7rem;
   max-width: 90ch;
   margin: auto;
   padding: 1.5rem;
@@ -27,4 +28,22 @@ th {
 
 table + table {
   margin-top: 2rem;
+}
+
+.god {
+  border: 1px solid black;
+  padding: 0 1rem;
+  background: aliceblue;
+}
+
+.eje {
+  margin-top: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  background: lightyellow;
+}
+
+.verse {
+  text-align: center;
+  font-style: italic;
 }
