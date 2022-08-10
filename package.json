@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "fmt": "npx prettier --write .",
-    "start": "http-server docs"
+    "start": "http-server docs -o -c-1"
   },
   "author": "",
   "license": "ISC",
